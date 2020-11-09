@@ -22,7 +22,7 @@
 			return $newNode;
 			}
 
-		public function processing() : string
+		public function __toString() : string
 			{
 			$mainNode = $this->doc->createElement('Node');
 			$this->doc->appendChild($mainNode);
